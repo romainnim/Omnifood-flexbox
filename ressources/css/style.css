@@ -274,7 +274,13 @@ nav{
 }
 
 .city-cards .city{
-    width: 25%;
+    flex: 1;
+    margin-right: 15px;
+    width: calc(25%-15px);
+}
+
+.city-cards .city:last-child{
+    margin-right: 0;
 }
 
 .city h3 {
@@ -303,3 +309,58 @@ nav{
 /**************************************************/
 /*SECTION TESTIMONIAL*/
 /**************************************************/
+.section-testimonial{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)),url("../../vendors/img/back-customers.jpg");
+    background-size: cover;
+    padding-bottom: 90px;
+    background-attachment: fixed;
+}
+.section-testimonial blockquote,
+.section-testimonial h2,
+.section-testimonial cite{
+    color: #ffffff;
+}
+
+.section-testimonial blockquote,
+.section-testimonial cite{
+    font-style: italic;
+}
+
+.section-testimonial cite{
+    font-size: 90%;
+}
+
+.section-testimonial img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.testimonial-group{
+    display: flex;
+}
+
+.testimonial-group .testimonial{
+    width: cald(33.33%-40px);
+    margin-right: 40px;
+}
+
+.testimonial blockquote{
+    margin: 0 0 35px;
+    line-height: 140%;
+}
+
+.testimonial blockquote:before{
+    content: "\201C";
+    margin: 15px 0 0 -20px;
+    font-size: 500%;
+    display: block;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 35px;
+    height: auto;
+}
+
+.testimonial span{
+}
