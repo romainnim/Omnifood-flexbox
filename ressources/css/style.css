@@ -3,6 +3,8 @@
 /**************************************************/
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html{
@@ -412,3 +414,105 @@ nav{
 /**************************************************/
 /*SECTION FORM*/
 /**************************************************/
+.section-forms{
+    padding-bottom: 50px;
+}
+
+.form-row{
+    display: flex;
+}
+
+.form-row label{
+    flex: 1;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row select,
+.form-row textarea,
+.form-row span {
+    flex: 2;
+}
+
+
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row select,
+.form-row textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.form-row input[type="checkbox"],
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row select,
+.form-row textarea,
+.form-row span {
+    margin-bottom: 20px;
+}
+
+.form-row input[type="checkbox"]{
+    margin-right:10px;
+}
+
+.form-row input[type="button"]{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/**************************************************/
+/*SECTION FOOTER*/
+/**************************************************/
+footer{
+    background-color: #333333;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.footer-top,
+.footer-nav,
+.social-links {
+    display: flex;
+}
+
+.footer-top{
+    justify-content: space-between;
+    font-size: 90%;
+    padding-top: 50px;
+}
+
+.footer-top li{
+    padding-right: 15px;
+}
+
+.social-links{
+    font-size: 150%;
+}
+
+.footer-nav a,
+.social-links ion-icon{
+    color: #888;
+    transition: color 0.2s;
+}
+.fb:hover{
+    color: #3b5998;
+}
+
+.twit:hover{
+    color: #55acee;
+}
+.ig:hover{
+    color: #e4405f;
+}
+.gplus:hover{    
+    color: #dd4b39;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 50px 0 30px;
+}
