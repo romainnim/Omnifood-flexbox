@@ -368,6 +368,7 @@ nav{
 /**************************************************/
 .section-plans{
     background-color: #f4f4f4;
+    padding-bottom: 90px;
 }
 
 .section-plans .container-plan{
@@ -379,6 +380,7 @@ nav{
     width: 33.33%;
     margin-right:70px;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 .plan-card ul{
@@ -406,3 +408,7 @@ nav{
 .price-plan span{
     font-size: 50%;
 }
+
+/**************************************************/
+/*SECTION FORM*/
+/**************************************************/
