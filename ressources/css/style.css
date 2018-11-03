@@ -13,6 +13,11 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+}
+
 li{
     list-style: none;
 }
@@ -38,7 +43,7 @@ p{
 h2,
 h3 {
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     word-spacing: 60%;
 }
 
@@ -123,6 +128,7 @@ header{
     font-size: 250%; 
     text-align: inherit;
     margin-bottom: 30px;
+    font-weight: 100;
 }
 
 .logo{
@@ -291,11 +297,6 @@ nav{
     width: 100%;
 }
 
-.city ul{
-    padding: 0;
-    margin: 0;
-}
-
 .city li{
     margin-bottom: 15px;
 }
@@ -362,5 +363,46 @@ nav{
     height: auto;
 }
 
-.testimonial span{
+/**************************************************/
+/*SECTION PLANS*/
+/**************************************************/
+.section-plans{
+    background-color: #f4f4f4;
+}
+
+.section-plans .container-plan{
+    display: flex;
+}
+
+.section-plans .plan-card{
+    background-color: #fff;
+    width: 33.33%;
+    margin-right:70px;
+    padding: 20px;
+}
+
+.plan-card ul{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.plan-card li{
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.plan-card ion-icon{
+    color: #e67e22;
+    margin-right: 10px;
+}
+
+.plan-card .price-plan{
+    color: #e67e22;
+    font-size: 300%;
+    font-weight: 100;
+    margin: 0;
+}
+
+.price-plan span{
+    font-size: 50%;
 }
